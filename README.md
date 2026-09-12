@@ -1,7 +1,7 @@
 <!--Head-->
 <div align=center>
 
-![WTBking](https://raw.githubusercontent.com/westinbrooks/westinbrooks/images/banner.png)
+![WTBking](https://raw.githubusercontent.com/westinbrooks/westinbrooks/621ac35608ff05b04e30c849155856c3f6c046b2/images/banner.png)
 
 Primarily developing my individual skills and working on personal projects, such as [Photon](https://modrinth.com/modpack/phtn), while I forbearingly solve quantum gravity.
 
