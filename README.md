@@ -1,7 +1,7 @@
 <!--Head-->
 <div align=center>
 
-![WTBking](https://raw.githubusercontent.com/westinbrooks/westinbrooks/621ac35608ff05b04e30c849155856c3f6c046b2/images/banner.png)
+![Banner](https://raw.githubusercontent.com/westinbrooks/westinbrooks/621ac35608ff05b04e30c849155856c3f6c046b2/images/banner.png)
 
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/wtbking)
 [![Modrinth](https://img.shields.io/badge/Modrinth-%2300AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/WTBking)
@@ -18,12 +18,15 @@ Primarily developing my individual skills and working on personal projects, such
 [![Photon](https://modfolio.creeperkatze.dev/modrinth/project/phtn?showVersions=false&showSummary=true)](https://modrinth.com/modpack/phtn)
 [![Decibel](https://modfolio.creeperkatze.dev/modrinth/project/decibel?showVersions=false&showSummary=true)](https://modrinth.com/resourcepack/decibel)
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="32" height="32"/> Stats
-
-[![GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=westinbrooks&show_icons=true&theme=tokyonight)](https://github.com/westinbrooks)
-
+<!--Technologies-->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" height="32"/> Technologies
 
+![Tech Stack](https://skillicons.dev/icons?i=arch,css,docker,dotnet,git,github,html,idea,java,linux,lua,md,neovim,ubuntu,py,ts,vscodium,windows&theme=dark)
+
+<!--Stats-->
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="32" height="32"/> Stats
+
+[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=westinbrooks&show_icons=true&theme=tokyonight)](https://github.com/westinbrooks)
 
 
-![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=westinbrooks)
+![View Counter](https://komarev.com/ghpvc/?username=westinbrooks)
