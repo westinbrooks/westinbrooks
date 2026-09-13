@@ -3,20 +3,22 @@
 
 ![WTBking](https://raw.githubusercontent.com/westinbrooks/westinbrooks/621ac35608ff05b04e30c849155856c3f6c046b2/images/banner.png)
 
-Primarily developing my individual skills and working on personal projects, such as [Photon](https://modrinth.com/modpack/phtn), while I forbearingly solve quantum gravity.
+Primarily developing my individual skills and working on personal projects, such as [Photon](https://github.com/westinbrooks/photon), while I forbearingly solve quantum gravity.
 
 </div>
 
 <!--Projects-->
-## 📦 Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" alt="Package" width="32" height="32"/> Projects
 
-[![Photon](https://cdn.modrinth.com/data/cached_images/570414f174eb84e3f70424013fec650b2dfb5c14.png)](https://github.com/westinbrooks/photon)
-[![Decibel logo](https://cdn.modrinth.com/data/cached_images/3e9966a6410ec09e22e333a5dd0b65ccc22b8852.png)](https://github.com/westinbrooks/decibel)
+[![Photon](https://modfolio.creeperkatze.dev/modrinth/project/phtn?showVersions=false&showSummary=true)](https://modrinth.com/modpack/phtn)
+[![Decibel](https://modfolio.creeperkatze.dev/modrinth/project/decibel?showVersions=false&showSummary=true)](https://modrinth.com/resourcepack/decibel)
 
-## 📈 Stats
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="32" height="32"/> Stats
 
-[![Photon Modrinth Stats](https://modfolio.creeperkatze.dev/modrinth/project/phtn?showVersions=false&showSummary=true)](https://modrinth.com/modpack/phtn)
 [![GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=westinbrooks&show_icons=true&theme=tokyonight)](https://github.com/westinbrooks)
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" height="32"/> Technologies
+
 
 
 ![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=westinbrooks)
