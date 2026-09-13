@@ -7,6 +7,7 @@
 [![Modrinth](https://img.shields.io/badge/Modrinth-%2300AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/WTBking)
 [![ProtonMail](https://img.shields.io/badge/Proton-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:westinbrooks@proton.me)
 [![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/wtbking/)
+[![Letterboxd](https://img.shields.io/badge/Letterboxd-202830?style=for-the-badge&logo=letterboxd&logoColor=white)](https://letterboxd.com/wtbking)
 
 Primarily developing my individual skills and working on personal projects, such as [Photon](https://github.com/westinbrooks/photon), while I forbearingly solve quantum gravity.
 
