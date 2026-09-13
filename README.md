@@ -23,10 +23,5 @@ Primarily developing my individual skills and working on personal projects, such
 
 ![Tech Stack](https://skillicons.dev/icons?i=arch,css,docker,dotnet,git,github,html,idea,java,linux,lua,md,neovim,ubuntu,py,ts,vscodium,windows&theme=dark)
 
-<!--Stats-->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="32" height="32"/> Stats
-
-[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=westinbrooks&show_icons=true&theme=tokyonight)](https://github.com/westinbrooks)
-
-
+<!--View Counter-->
 ![View Counter](https://komarev.com/ghpvc/?username=westinbrooks)
