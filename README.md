@@ -22,6 +22,3 @@ Primarily developing my individual skills and working on personal projects, such
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" height="32"/> Technologies
 
 ![Tech Stack](https://skillicons.dev/icons?i=arch,css,docker,dotnet,git,github,html,idea,java,linux,lua,md,neovim,ubuntu,py,ts,vscodium,windows&theme=dark)
-
-<!--View Counter-->
-![View Counter](https://komarev.com/ghpvc/?username=westinbrooks)
