@@ -22,4 +22,14 @@ Primarily developing my individual skills and working on personal projects, such
 <!--Technologies-->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" height="32"/> Technologies
 
-![Tech Stack](https://skillicons.dev/icons?i=arch,css,docker,dotnet,git,github,html,idea,java,linux,lua,md,neovim,ubuntu,py,ts,vscodium,windows&theme=dark)
+![Static Badge](https://img.shields.io/badge/Linux-%2300a693?style=for-the-badge&logo=linux&logoColor=%23FFFFFF&label=Kernel&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/CachyOS-%2300a693?style=for-the-badge&logo=cachyos&logoColor=%23FFFFFF&label=OS&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Hyprland-%2300a693?style=for-the-badge&logo=hyprland&logoColor=%23FFFFFF&label=Compositor&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/InteliJ%20IDEA-%2300a693?style=for-the-badge&logo=intellijidea&logoColor=%23FFFFFF&label=Editor&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Neovim-%2300a693?style=for-the-badge&logo=neovim&logoColor=%23FFFFFF&label=Editor&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Fish-%2300a693?style=for-the-badge&logo=fishshell&logoColor=%23FFFFFF&label=Shell&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Java-%2300a693?style=for-the-badge&logo=openjdk&logoColor=%23FFFFFF&label=Code&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Python-%2300a693?style=for-the-badge&logo=python&logoColor=%23FFFFFF&label=Code&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Lua-%2300a693?style=for-the-badge&logo=lua&logoColor=%23FFFFFF&label=Code&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Git-%2300a693?style=for-the-badge&logo=git&logoColor=%23FFFFFF&label=Tools&labelColor=%23161616)
+![Static Badge](https://img.shields.io/badge/Docker-%2300a693?style=for-the-badge&logo=docker&logoColor=%23FFFFFF&label=Tools&labelColor=%23161616)
