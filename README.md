@@ -37,4 +37,54 @@ Primarily developing my individual skills and working on personal projects, such
 <!--Letterboxd-->
 ### Recent Letterboxd Reviews
 <!-- LETTERBOXD:START -->
+
+<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
+  <tr style="border: none !important; background: transparent;">
+    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+      <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">
+        <img src="https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-230-0-345-crop.jpg?v=b06dbfb4c9" alt="The End of Oak Street" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+      </a>
+    </td>
+    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+      <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
+        <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">The End of Oak Street</a>
+      </div>
+      <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★</p>
+      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">Very enjoyable with fun storytelling and intense action. Also, was glad to see the dinosaur designs avoided the Jurassic Park/World archetype in favor of...</p>
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
+  <tr style="border: none !important; background: transparent;">
+    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+      <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">
+        <img src="https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-230-0-345-crop.jpg?v=3aef2095df" alt="Scott Pilgrim vs. the World" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+      </a>
+    </td>
+    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+      <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
+        <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">Scott Pilgrim vs. the World</a>
+      </div>
+      <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★½</p>
+      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">what</p>
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
+  <tr style="border: none !important; background: transparent;">
+    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+      <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">
+        <img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/7/3/2/686732-jujutsu-kaisen-0-230-0-345-crop.jpg?v=267dd5fa93" alt="JUJUTSU KAISEN" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+      </a>
+    </td>
+    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+      <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
+        <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">JUJUTSU KAISEN</a>
+      </div>
+      <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★★½</p>
+      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">This review is divided into seasons and their corresponding arcs (episode numbers in parentheses), as I felt it better conveyed what parts of the show I enjoyed...</p>
+    </td>
+  </tr>
+</table>
+
 <!-- LETTERBOXD:END -->
