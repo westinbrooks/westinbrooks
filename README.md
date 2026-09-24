@@ -38,44 +38,9 @@ Primarily developing my individual skills and working on personal projects, such
 ### Recent Letterboxd Reviews
 <!-- LETTERBOXD:START -->
 
-<div style="margin-bottom: 20px;">
-  <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">
-    <img src="https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-230-0-345-crop.jpg?v=b06dbfb4c9" alt="The End of Oak Street" width="80" height="120" align="left" style="margin-right: 16px; border-radius: 4px; object-fit: cover;" />
-  </a>
-  <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
-    <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">The End of Oak Street</a>
-  </span>
-  <br />
-  <span style="font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★</span>
-  <br />
-  <span style="font-size: 0.9em; line-height: 1.4; white-space: pre-line;">Very enjoyable with fun storytelling and intense action. Also, was glad to see the dinosaur designs avoided the Jurassic Park/World archetype in favor of...</span>
-  <br clear="left" />
-</div>
-<div style="margin-bottom: 20px;">
-  <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">
-    <img src="https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-230-0-345-crop.jpg?v=3aef2095df" alt="Scott Pilgrim vs. the World" width="80" height="120" align="left" style="margin-right: 16px; border-radius: 4px; object-fit: cover;" />
-  </a>
-  <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
-    <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">Scott Pilgrim vs. the World</a>
-  </span>
-  <br />
-  <span style="font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★½</span>
-  <br />
-  <span style="font-size: 0.9em; line-height: 1.4; white-space: pre-line;">what</span>
-  <br clear="left" />
-</div>
-<div style="margin-bottom: 20px;">
-  <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">
-    <img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/7/3/2/686732-jujutsu-kaisen-0-230-0-345-crop.jpg?v=267dd5fa93" alt="JUJUTSU KAISEN" width="80" height="120" align="left" style="margin-right: 16px; border-radius: 4px; object-fit: cover;" />
-  </a>
-  <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
-    <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">JUJUTSU KAISEN</a>
-  </span>
-  <br />
-  <span style="font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">★★★★½</span>
-  <br />
-  <span style="font-size: 0.9em; line-height: 1.4; white-space: pre-line;">This review is divided into seasons and their corresponding arcs (episode numbers in parentheses), as I felt it better conveyed what parts of the show I enjoyed...</span>
-  <br clear="left" />
-</div>
-
+| | |
+|---|---|
+| ![The End of Oak Street](https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-230-0-345-crop.jpg?v=b06dbfb4c9) | **[The End of Oak Street](https://letterboxd.com/wtbking/film/the-end-of-oak-street/)**<br/>★★★<br/><br/>Very enjoyable with fun storytelling and intense action. Also, was glad to see the dinosaur designs avoided the Jurassic Park/World archetype in favor of realism. Bit of a paradoxical ending with a couple loose ties, but can be glossed over... |
+| ![Scott Pilgrim vs. the World](https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-230-0-345-crop.jpg?v=3aef2095df) | **[Scott Pilgrim vs. the World](https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/)**<br/>★★★½<br/><br/>what |
+| ![JUJUTSU KAISEN](https://a.ltrbxd.com/resized/film-poster/6/8/6/7/3/2/686732-jujutsu-kaisen-0-230-0-345-crop.jpg?v=267dd5fa93) | **[JUJUTSU KAISEN](https://letterboxd.com/wtbking/film/jujutsu-kaisen/)**<br/>★★★★½<br/><br/>This review is divided into seasons and their corresponding arcs (episode numbers in parentheses), as I felt it better conveyed what parts of the show I enjoyed most. This will be updated as future arcs are adapted. Season 1 — 4/5 Fearsome... |
 <!-- LETTERBOXD:END -->

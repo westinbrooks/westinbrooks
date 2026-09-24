@@ -38,8 +38,8 @@ async function updateReadme() {
             // Cleanup review text - remove newlines to prevent table spillage
             reviewText = reviewText.trim().replace(/\n{3,}/g, '\n\n').replace(/\n/g, ' ');
 
-            // Limit character requests to 280 to fit in table cell
-            const maxChars = 280;
+            // Limit character requests to 240 to fit in table cell
+            const maxChars = 240;
             if (reviewText.length > maxChars) {
                 const truncateIndex = reviewText.lastIndexOf(' ', maxChars);
                 reviewText = (truncateIndex > 0 ? reviewText.substring(0, truncateIndex) : reviewText.substring(0, maxChars)).trim() + '...';
