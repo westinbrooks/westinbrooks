@@ -48,7 +48,7 @@ async function updateReadme() {
             // Create HTML layout
             widget += `<div style="margin-bottom: 20px;">
   <a href="${filmUrl}">
-    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="margin-right: 16px; border-radius: 4px; object-fit: cover;" />
+    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; border: none; padding-right: 16px; box-sizing: content-box;" />
   </a>
   <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
     <a href="${filmUrl}">${filmTitle}</a>
