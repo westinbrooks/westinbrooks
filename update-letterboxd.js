@@ -1,4 +1,4 @@
-import letterboxd, { isDiary } from "letterboxd-api";
+const { Letterboxd, isDiary } = require('letterboxd-api');
 import fs from "fs";
 
 const USERNAME = process.env.LETTERBOXD_USERNAME;
@@ -9,7 +9,7 @@ async function updateReadme() {
         const items = await letterboxd(USERNAME);
 
         // Get the 3 latest diary entries (reviews)
-        const latestReviews = items.filter(isDiary).slice(0, 3);
+        const reviews = items.filter(isDiary).slice(0, 3);
 
         if (latestReviews.length === 0) {
             console.log("No reviews found");
