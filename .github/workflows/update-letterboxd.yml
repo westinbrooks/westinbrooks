@@ -1,0 +1,34 @@
+name: Update Letterboxd Widget
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Executes hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install letterboxd-api
+
+      - run: node update-letterboxd.js
+        env:
+          LETTERBOXD_USERNAME: ${{ secrets.LETTERBOXD_USERNAME }}
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: 'Update Letterboxd widget'
+          push: true
