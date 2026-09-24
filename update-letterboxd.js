@@ -2,16 +2,17 @@ const { Letterboxd, isDiary } = require('letterboxd-api');
 const fs = require('fs');
 
 const USERNAME = process.env.LETTERBOXD_USERNAME;
+const letterboxd = new Letterboxd();
 
 async function updateReadme() {
     try {
         // Fetch Letterboxd data
-        const items = await letterboxd(USERNAME);
+        const items = await letterboxd.user(USERNAME).items();
 
         // Get the 3 latest diary entries (reviews)
         const reviews = items.filter(isDiary).slice(0, 3);
 
-        if (latestReviews.length === 0) {
+        if (reviews.length === 0) {
             console.log("No reviews found");
             return;
         }
@@ -19,13 +20,13 @@ async function updateReadme() {
         // Build the widget with 3 reviews
         let widget = "\n";
 
-        latestReviews.forEach((review) => {
-            const filmTitle = review.film.title;
-            const filmUrl = review.film.url;
-            const poster = review.film.poster;
-            const rating = review.rating?.text || "★☆☆☆☆";
+        reviews.forEach((review) => {
+            const filmTitle = review.film.name;
+            const filmUrl = `https://letterboxd.com${review.film.url}`;
+            const poster = review.film.poster.small;
+            const rating = review.rating ? '★'.repeat(review.rating) : '';
 
-            widget += `[![${filmTitle}](${poster})${rating}</a> `;
+            widget += `[![${filmTitle}](${poster})](${filmUrl} "${filmTitle} ${rating}") `;
         });
 
         widget += "\n";
@@ -49,7 +50,7 @@ async function updateReadme() {
 
         // Write back to README
         fs.writeFileSync("README.md", readme);
-        console.log(`Updated README with ${latestReviews.length} reviews`);
+        console.log(`Updated README with ${reviews.length} reviews`);
 
     } catch (error) {
         console.error("Error updating README:", error);

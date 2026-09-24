@@ -1,0 +1,17 @@
+{
+  "name": "westinbrooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "update-letterboxd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westinbrooks/westinbrooks.git"
+  },
+  "private": true,
+  "dependencies": {
+    "letterboxd-api": "^1.0.2"
+  }
+}
