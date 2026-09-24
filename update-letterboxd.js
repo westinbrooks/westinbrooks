@@ -1,5 +1,5 @@
 const { Letterboxd, isDiary } = require('letterboxd-api');
-import fs from "fs";
+const fs = require('fs');
 
 const USERNAME = process.env.LETTERBOXD_USERNAME;
 
