@@ -38,14 +38,14 @@ Primarily developing my individual skills and working on personal projects, such
 ### Recent Letterboxd Reviews
 <!-- LETTERBOXD:START -->
 
-<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
-  <tr style="border: none !important; background: transparent;">
-    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed !important; border: none !important; border-collapse: collapse !important; border-spacing: 0 !important; width: 100% !important; margin-bottom: 20px; background: transparent !important;">
+  <tr style="border: none !important; background: transparent !important;">
+    <td style="border: none !important; padding: 0 !important; width: 80px !important; min-width: 80px !important; max-width: 80px !important; vertical-align: top; background: transparent !important;">
       <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">
-        <img src="https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-230-0-345-crop.jpg?v=b06dbfb4c9" alt="The End of Oak Street" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+        <img src="https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-230-0-345-crop.jpg?v=b06dbfb4c9" alt="The End of Oak Street" width="80" height="120" style="width: 80px !important; height: 120px !important; min-width: 80px !important; max-width: 80px !important; object-fit: cover; border-radius: 4px; display: block; border: none !important;" />
       </a>
     </td>
-    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+    <td style="border: none !important; padding: 8px 0 0 16px !important; vertical-align: top; text-align: left; background: transparent !important; overflow: hidden;">
       <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
         <a href="https://letterboxd.com/wtbking/film/the-end-of-oak-street/">The End of Oak Street</a>
       </div>
@@ -54,14 +54,14 @@ Primarily developing my individual skills and working on personal projects, such
     </td>
   </tr>
 </table>
-<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
-  <tr style="border: none !important; background: transparent;">
-    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed !important; border: none !important; border-collapse: collapse !important; border-spacing: 0 !important; width: 100% !important; margin-bottom: 20px; background: transparent !important;">
+  <tr style="border: none !important; background: transparent !important;">
+    <td style="border: none !important; padding: 0 !important; width: 80px !important; min-width: 80px !important; max-width: 80px !important; vertical-align: top; background: transparent !important;">
       <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">
-        <img src="https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-230-0-345-crop.jpg?v=3aef2095df" alt="Scott Pilgrim vs. the World" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+        <img src="https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-230-0-345-crop.jpg?v=3aef2095df" alt="Scott Pilgrim vs. the World" width="80" height="120" style="width: 80px !important; height: 120px !important; min-width: 80px !important; max-width: 80px !important; object-fit: cover; border-radius: 4px; display: block; border: none !important;" />
       </a>
     </td>
-    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+    <td style="border: none !important; padding: 8px 0 0 16px !important; vertical-align: top; text-align: left; background: transparent !important; overflow: hidden;">
       <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
         <a href="https://letterboxd.com/wtbking/film/scott-pilgrim-vs-the-world/">Scott Pilgrim vs. the World</a>
       </div>
@@ -70,14 +70,14 @@ Primarily developing my individual skills and working on personal projects, such
     </td>
   </tr>
 </table>
-<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
-  <tr style="border: none !important; background: transparent;">
-    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed !important; border: none !important; border-collapse: collapse !important; border-spacing: 0 !important; width: 100% !important; margin-bottom: 20px; background: transparent !important;">
+  <tr style="border: none !important; background: transparent !important;">
+    <td style="border: none !important; padding: 0 !important; width: 80px !important; min-width: 80px !important; max-width: 80px !important; vertical-align: top; background: transparent !important;">
       <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">
-        <img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/7/3/2/686732-jujutsu-kaisen-0-230-0-345-crop.jpg?v=267dd5fa93" alt="JUJUTSU KAISEN" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+        <img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/7/3/2/686732-jujutsu-kaisen-0-230-0-345-crop.jpg?v=267dd5fa93" alt="JUJUTSU KAISEN" width="80" height="120" style="width: 80px !important; height: 120px !important; min-width: 80px !important; max-width: 80px !important; object-fit: cover; border-radius: 4px; display: block; border: none !important;" />
       </a>
     </td>
-    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+    <td style="border: none !important; padding: 8px 0 0 16px !important; vertical-align: top; text-align: left; background: transparent !important; overflow: hidden;">
       <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
         <a href="https://letterboxd.com/wtbking/film/jujutsu-kaisen/">JUJUTSU KAISEN</a>
       </div>
