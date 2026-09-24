@@ -31,27 +31,28 @@ async function updateReadme() {
             // Cleanup review text
             reviewText = reviewText.trim().replace(/\n{3,}/g, '\n\n');
 
-            // Limit character requests to 500 to automatically fill as needed
-            if (reviewText.length > 500) {
-                reviewText = reviewText.substring(0, 500).trim() + '...';
+            // Enforce line-clamping
+            const maxChars = 160;
+            if (reviewText.length > maxChars) {
+                // Truncate at the end of a complete word
+                const truncateIndex = reviewText.lastIndexOf(' ', maxChars);
+                reviewText = (truncateIndex > 0 ? reviewText.substring(0, truncateIndex) : reviewText.substring(0, maxChars)).trim() + '...';
             }
 
             // Create HTML layout
-            // - Using a borderless, background-free HTML table to lock columns side-by-side on GitHub.
-            // - Setting 'padding-top: 8px' on the right cell recreates the perfect, balanced spacing.
-            widget += `<table style="border: none; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
-  <tr style="border: none; background: transparent;">
-    <td style="border: none; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+            widget += `<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
+  <tr style="border: none !important; background: transparent;">
+    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
       <a href="${filmUrl}">
-        <img src="${poster}" alt="${filmTitle}" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; max-width: none; border: none;" />
+        <img src="${poster}" alt="${filmTitle}" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
       </a>
     </td>
-    <td style="border: none; padding: 0 0 0 16px; padding-top: 8px; vertical-align: top; text-align: left; background: transparent;">
+    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
       <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
         <a href="${filmUrl}">${filmTitle}</a>
       </div>
       <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
-      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; word-break: break-word; white-space: pre-line;">${reviewText}</p>
+      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
     </td>
   </tr>
 </table>\n`;
