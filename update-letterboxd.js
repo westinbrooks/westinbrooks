@@ -4,7 +4,14 @@ const Letterboxd = require('letterboxd-api').default;
 
 async function updateReadme() {
     try {
-        const letterboxd = await Letterboxd(process.env.LETTERBOXD_USERNAME);
+        // Safety check to verify environment variable is present
+        const username = process.env.LETTERBOXD_USERNAME;
+        if (!username) {
+            console.error('Error: LETTERBOXD_USERNAME environment variable is not set.');
+            process.exit(1);
+        }
+
+        const letterboxd = await Letterboxd(username);
 
         // Retrieve latest 3 reviews
         const reviews = letterboxd
@@ -31,23 +38,22 @@ async function updateReadme() {
             // Cleanup review text
             reviewText = reviewText.trim().replace(/\n{3,}/g, '\n\n');
 
-            // Enforce line-clamping
+            // Limit character requests to 500 to automatically fill as needed
             const maxChars = 160;
             if (reviewText.length > maxChars) {
-                // Truncate at the end of a complete word
                 const truncateIndex = reviewText.lastIndexOf(' ', maxChars);
                 reviewText = (truncateIndex > 0 ? reviewText.substring(0, truncateIndex) : reviewText.substring(0, maxChars)).trim() + '...';
             }
 
             // Create HTML layout
-            widget += `<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent;">
-  <tr style="border: none !important; background: transparent;">
-    <td style="border: none !important; padding: 0; width: 80px; min-width: 80px; vertical-align: top; background: transparent;">
+            widget += `<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed !important; border: none !important; border-collapse: collapse !important; border-spacing: 0 !important; width: 100% !important; margin-bottom: 20px; background: transparent !important;">
+  <tr style="border: none !important; background: transparent !important;">
+    <td style="border: none !important; padding: 0 !important; width: 80px !important; min-width: 80px !important; max-width: 80px !important; vertical-align: top; background: transparent !important;">
       <a href="${filmUrl}">
-        <img src="${poster}" alt="${filmTitle}" width="80" height="120" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none !important; max-width: none;" />
+        <img src="${poster}" alt="${filmTitle}" width="80" height="120" style="width: 80px !important; height: 120px !important; min-width: 80px !important; max-width: 80px !important; object-fit: cover; border-radius: 4px; display: block; border: none !important;" />
       </a>
     </td>
-    <td style="border: none !important; padding: 8px 0 0 16px; vertical-align: top; text-align: left; background: transparent;">
+    <td style="border: none !important; padding: 8px 0 0 16px !important; vertical-align: top; text-align: left; background: transparent !important; overflow: hidden;">
       <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
         <a href="${filmUrl}">${filmTitle}</a>
       </div>
