@@ -46,22 +46,17 @@ async function updateReadme() {
             }
 
             // Create HTML layout
-            widget += `<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed !important; border: none !important; border-collapse: collapse !important; border-spacing: 0 !important; width: 100% !important; margin-bottom: 20px; background: transparent !important;">
-  <tr style="border: none !important; background: transparent !important;">
-    <td style="border: none !important; padding: 0 !important; width: 80px !important; min-width: 80px !important; max-width: 80px !important; vertical-align: top; background: transparent !important;">
-      <a href="${filmUrl}">
-        <img src="${poster}" alt="${filmTitle}" width="80" height="120" style="width: 80px !important; height: 120px !important; min-width: 80px !important; max-width: 80px !important; object-fit: cover; border-radius: 4px; display: block; border: none !important;" />
-      </a>
-    </td>
-    <td style="border: none !important; padding: 8px 0 0 16px !important; vertical-align: top; text-align: left; background: transparent !important; overflow: hidden;">
-      <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
-        <a href="${filmUrl}">${filmTitle}</a>
-      </div>
-      <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
-      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
-    </td>
-  </tr>
-</table>\n`;
+            widget += `<div style="min-height: 120px; margin-bottom: 20px;">
+  <a href="${filmUrl}">
+    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="width: 80px; height: 120px; border-radius: 4px; margin-right: 16px; object-fit: cover; display: block; border: none;" />
+  </a>
+  <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; padding-top: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
+    <a href="${filmUrl}">${filmTitle}</a>
+  </div>
+  <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
+  <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
+  <br clear="left" />
+</div>\n`;
         });
 
         // Read the README file
