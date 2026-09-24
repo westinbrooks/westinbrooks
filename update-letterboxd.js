@@ -1,4 +1,4 @@
-const { Letterboxd, isDiary } = require('letterboxd-api');
+const { Letterboxd } = require('letterboxd-api');
 const fs = require('fs');
 
 const USERNAME = process.env.LETTERBOXD_USERNAME;
