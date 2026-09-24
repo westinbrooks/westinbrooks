@@ -18,8 +18,8 @@ async function updateReadme() {
             .filter(item => item.type === 'diary')
             .slice(0, 3);
 
-        // Generate widget HTML
-        let widget = '\n';
+        // Generate widget markdown table with spacing
+        let widget = '\n| | |\n|---|---|\n';
         reviews.forEach((review) => {
             const filmTitle = review.film.title;
 
@@ -35,30 +35,21 @@ async function updateReadme() {
             const rating = review.rating.text;
             let reviewText = review.review || '';
 
-            // Cleanup review text
-            reviewText = reviewText.trim().replace(/\n{3,}/g, '\n\n');
+            // Cleanup review text - remove newlines to prevent table spillage
+            reviewText = reviewText.trim().replace(/\n{3,}/g, '\n\n').replace(/\n/g, ' ');
 
-            // Limit character requests to 500 to automatically fill as needed
-            const maxChars = 160;
+            // Limit character requests to 280 to fit in table cell
+            const maxChars = 280;
             if (reviewText.length > maxChars) {
                 const truncateIndex = reviewText.lastIndexOf(' ', maxChars);
                 reviewText = (truncateIndex > 0 ? reviewText.substring(0, truncateIndex) : reviewText.substring(0, maxChars)).trim() + '...';
             }
 
-            // Create HTML layout
-            widget += `<div style="margin-bottom: 20px;">
-  <a href="${filmUrl}">
-    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; border: none; padding-right: 16px; box-sizing: content-box;" />
-  </a>
-  <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
-    <a href="${filmUrl}">${filmTitle}</a>
-  </span>
-  <br />
-  <span style="font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</span>
-  <br />
-  <span style="font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</span>
-  <br clear="left" />
-</div>\n`;
+            // Escape pipe characters in review text for markdown table
+            reviewText = reviewText.replace(/\|/g, '\\|');
+
+            // Create markdown table row with native spacing
+            widget += `| ![${filmTitle}](${poster}) | **[${filmTitle}](${filmUrl})**<br/>${rating}<br/><br/>${reviewText} |\n`;
         });
 
         // Read the README file
@@ -79,7 +70,7 @@ async function updateReadme() {
         // Update README
         readmeContent =
             readmeContent.substring(0, startIndex) +
-            '\n' + widget + '\n' +
+            '\n' + widget +
             readmeContent.substring(endIndex);
 
         fs.writeFileSync(readmePath, readmeContent, 'utf-8');
