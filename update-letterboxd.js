@@ -46,22 +46,19 @@ async function updateReadme() {
             }
 
             // Create HTML layout
-            widget += `<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 20px; background: transparent; border: none;">
-  <tr style="background: transparent; border: none;">
-    <td valign="top" width="80" style="padding: 0; width: 80px; min-width: 80px; max-width: 80px; background: transparent; border: none;">
-      <a href="${filmUrl}">
-        <img src="${poster}" alt="${filmTitle}" width="80" height="120" style="width: 80px; height: 120px; min-width: 80px; max-width: 80px; object-fit: cover; border-radius: 4px; display: block; border: none; max-width: none;" />
-      </a>
-    </td>
-    <td valign="top" style="padding: 8px 0 0 16px; text-align: left; background: transparent; border: none;">
-      <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
-        <a href="${filmUrl}">${filmTitle}</a>
-      </div>
-      <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
-      <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
-    </td>
-  </tr>
-</table>\n`;
+            widget += `<div style="margin-bottom: 20px;">
+  <a href="${filmUrl}">
+    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="margin-right: 16px; border-radius: 4px; object-fit: cover;" />
+  </a>
+  <span style="font-size: 1.1em; line-height: 1.2; font-weight: bold;">
+    <a href="${filmUrl}">${filmTitle}</a>
+  </span>
+  <br />
+  <span style="font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</span>
+  <br />
+  <span style="font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</span>
+  <br clear="left" />
+</div>\n`;
         });
 
         // Read the README file
