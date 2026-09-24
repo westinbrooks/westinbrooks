@@ -48,13 +48,15 @@ async function updateReadme() {
             // Create HTML layout
             widget += `<div style="min-height: 120px; margin-bottom: 20px;">
   <a href="${filmUrl}">
-    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="width: 80px; height: 120px; border-radius: 4px; margin-right: 16px; object-fit: cover; display: block; border: none;" />
+    <img src="${poster}" alt="${filmTitle}" width="80" height="120" align="left" style="width: 80px; height: 120px; object-fit: cover; border-radius: 4px; display: block; border: none;" />
   </a>
-  <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; padding-top: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
-    <a href="${filmUrl}">${filmTitle}</a>
+  <div style="padding-left: 96px; padding-top: 8px;">
+    <div style="font-size: 1.1em; line-height: 1.2; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
+      <a href="${filmUrl}">${filmTitle}</a>
+    </div>
+    <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
+    <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
   </div>
-  <p style="margin: 0 0 4px 0; font-weight: bold; font-size: 0.95em; color: #ff9d00; line-height: 1.2;">${rating}</p>
-  <p style="margin: 0; font-size: 0.9em; line-height: 1.4; white-space: pre-line;">${reviewText}</p>
   <br clear="left" />
 </div>\n`;
         });
