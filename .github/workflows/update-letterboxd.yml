@@ -2,7 +2,7 @@ name: Update Letterboxd Widget
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Executes hourly
+    - cron: '0 0 * * *'  # Executes daily
   workflow_dispatch:
 
 permissions:
