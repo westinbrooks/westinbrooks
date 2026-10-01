@@ -18,7 +18,7 @@ async function updateReadme() {
             .filter(item => item.type === 'diary')
             .slice(0, 3);
 
-        // Generate widget markdown table with spacing
+        // Generate widget Markdown table with spacing
         let widget = '\n| | |\n|---|---|\n';
         reviews.forEach((review) => {
             const filmTitle = review.film.title;
@@ -45,10 +45,10 @@ async function updateReadme() {
                 reviewText = (truncateIndex > 0 ? reviewText.substring(0, truncateIndex) : reviewText.substring(0, maxChars)).trim() + '...';
             }
 
-            // Escape pipe characters in review text for markdown table
+            // Escape pipe characters in review text for Markdown table
             reviewText = reviewText.replace(/\|/g, '\\|');
 
-            // Create markdown table row with native spacing
+            // Create Markdown table row with native spacing
             widget += `| ![${filmTitle}](${poster}) | **[${filmTitle}](${filmUrl})**<br/>${rating}<br/><br/>${reviewText} |\n`;
         });
 
